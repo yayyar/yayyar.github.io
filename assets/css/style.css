@@ -316,10 +316,22 @@ section {
   background: #149ddd;
   bottom: 0;
   left: 0;
+  border-radius: 10px;
 }
 
 .section-title p {
   margin-bottom: 0;
+}
+
+.contact-title {
+  color: hsl(0, 0%, 100%);
+  background: hsl(240, 1%, 17%);
+  font-size: 12px;
+  font-weight: 300;
+  width: 225px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-top: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -409,10 +421,14 @@ section {
   background: none;
 }
 
+.skills .level{
+  color: #1f5297;
+}
+
 .skills .progress .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -426,6 +442,7 @@ section {
 
 .skills .progress-bar-wrap {
   background: #dce8f8;
+  border-radius: 10px;
 }
 
 .skills .progress-bar {
@@ -433,11 +450,20 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+  border-radius: 10px;
 }
 
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+
+.resume .resume-item .location {
+  color: #149ddd;
+}
+
+.resume .resume-item .divider {
+  color: #1f5297;
+}
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -495,6 +521,18 @@ section {
   border: 2px solid #1f5297;
 }
 
+.certificate .platform {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.certificate ul.bullet {
+  list-style-type: square;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -753,10 +791,10 @@ section {
 }
 
 .contact .info {
-  padding: 30px;
-  background: #fff;
+  /* padding: 30px; */
+  /* background: #fff; */
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  /* box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); */
 }
 
 .contact .info i {
